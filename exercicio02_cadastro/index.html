@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro Usuario</title>
+</head>
+
+<body>
+<header>
+    <nav>
+    <a href="index.html">
+        <img src="unicapLogo.png" alt="Logotipo Unicap" width="200" height="200"></a>
+    <hr>
+    </nav>
+</header>
+
+<article>
+    <h3>Realize seu cadastro</h3>
+    <form action="">
+        <br>
+
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" id="name" placeholder="Seu nome completo">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com">
+        </div>
+        <br>
+
+        <div>
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" name="password"/>
+        </div>
+        <br>
+
+        <div>
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data" name="dataEntrada">
+        </div>
+        <br>
+
+        <div>
+            <label for="genero">Gênero:</label>
+            <select name="secao" id="genero">
+                <option value="selecione">Selecione</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Outro">Outro / Prefiro não informar</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado">
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <input type="checkbox" name="atualizacoes" value="atualizacoes">Quero receber atualizações por email.<br>
+        </div>
+
+        <br>
+        <input type="submit" name="send" value="Enviar"/>
+    </form>
+</article>
+</body>
+</html>
