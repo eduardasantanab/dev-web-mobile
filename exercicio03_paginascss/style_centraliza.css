@@ -1,0 +1,46 @@
+body{
+overflow: auto;
+background-image: url("/arquivos/paisagem.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin-top: 800px;
+height: 0;
+width: 0;
+}
+
+
+nav{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.centraliza{
+background-color: red;
+width: 700px;
+padding: 0px;
+margin: auto;
+display: block;
+}
+
+.centraliza2{
+background-color: green;
+width: 700px;
+padding: 25px;
+margin: auto;
+display: block;
+}
+
+h2{
+position: center;
+text-align: center;
+color: white;
+}
+
+
+.explica{
+text-align: center;
+color: black;
+}
