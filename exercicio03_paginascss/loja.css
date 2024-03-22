@@ -41,7 +41,19 @@ left: 20%;
 transform: translate(-50%, -50%);
 color: #008000;
 font-size: 13px;
+cursor: pointer;
 }
+
+#preco-01{
+position: absolute;
+top: 73%;
+left: 20%;
+transform: translate(-50%, -50%);
+color: #008000;
+font-size: 13px;
+cursor: pointer;
+}
+
 
 .calcado-02{
 margin: 0 auto;
@@ -62,6 +74,17 @@ left: 35%;
 transform: translate(-50%, -50%);
 color: #008000;
 font-size: 13px;
+cursor: pointer;
+}
+
+#preco-02{
+position: absolute;
+top: 73%;
+left: 35%;
+transform: translate(-50%, -50%);
+color: #008000;
+font-size: 13px;
+cursor: pointer;
 }
 
 .calcado-03{
@@ -83,6 +106,17 @@ left: 50%;
 transform: translate(-50%, -50%);
 color: #008000;
 font-size: 13px;
+cursor: pointer;
+}
+
+#preco-03{
+position: absolute;
+top: 73%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #008000;
+font-size: 13px;
+cursor: pointer;
 }
 
 .calcado-04{
@@ -104,6 +138,17 @@ left: 65%;
 transform: translate(-50%, -50%);
 color: #008000;
 font-size: 13px;
+cursor: pointer;
+}
+
+#preco-04{
+position: absolute;
+top: 73%;
+left: 65%;
+transform: translate(-50%, -50%);
+color: #008000;
+font-size: 13px;
+cursor: pointer;
 }
 
 .calcado-05{
@@ -125,6 +170,17 @@ left: 80%;
 transform: translate(-50%, -50%);
 color: #008000;
 font-size: 13px;
+cursor: pointer;
+}
+
+#preco-05{
+position: absolute;
+top: 73%;
+left: 80%;
+transform: translate(-50%, -50%);
+color: #008000;
+font-size: 13px;
+cursor: pointer;
 }
 
 a{
@@ -132,4 +188,17 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+}
+
+#footer{
+padding-bottom: 2.5rem;    /* altura do rodapé */
+bottom: 0;
+position: fixed;
+width: 100%;
+text-align: center;
+background-color: #D3D3D3;
+color: white;
+top: 10;
+cursor: pointer;
+height: 80px;
 }
