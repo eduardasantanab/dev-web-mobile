@@ -9,7 +9,7 @@ font-family: Verdana, sans-serif;
 
 body{
 overflow: auto;
-background-image: url("/arquivos/recife.jpg");
+background-image: url("/arquivos/paisagem.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -48,7 +48,7 @@ text-transform: uppercase;
 
 b{
 font-size: 70px;
-color: #ff6600; /*estiliza o ponto da logo*/
+color: #f2c438; /*estiliza o ponto da logo*/
 }
 
 .navItems{
@@ -73,7 +73,7 @@ color: #ff6600; /*altera a cor quando o mouse passa em cima do texto*/
 
 .links a{ /*icones do cabeçalho*/
 font-size: 20px;
-color: #ff6600;
+color: #f2c438;
 width: 100%;
 position: center;
 left: 150px;
@@ -81,7 +81,7 @@ margin: 10px 10px; /*espaçamento*/
 }
 
 .texto{
-color: #ff6600;
+color: white;
 position: absolute;
 text-align: center;
 top: 45%;
@@ -106,10 +106,10 @@ transform: translate(-50%, -50%);
 padding: 8px 14px;
 margin: 40px 5px;
 font-size: 16px;
-background-color: #ff6600;
+background-color: #f2c438;
 color: white;
 }
 
 .centered-button:hover {
-background-color: #f2c438;
+background-color: #ff6600;
 }
