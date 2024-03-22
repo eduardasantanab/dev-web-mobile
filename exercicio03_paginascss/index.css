@@ -90,27 +90,26 @@ transform: translate(-38%, -38%);
 }
 
 .button-container {
-    text-align: center; /* Alinha o conteúdo ao centro */
+text-align: center; /*alinha o conteúdo ao centro */
 }
 
 .centered-button {
-    text-decoration: none !important; /* Removendo sublinhado */
-    position: absolute;
-    display: flex;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 8px 14px;
-    margin: 40px 5px;
-    font-size: 16px;
-    background-color: #ff6600;
-    color: white;
-    transition: background-color 0.3s;
+text-decoration: none !important; /*remove sublinhado */
+display: flex;
+border: none;
+border-radius: 5px;
+cursor: pointer; /*icone cursor do mouse*/
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 8px 14px;
+margin: 40px 5px;
+font-size: 16px;
+background-color: #ff6600;
+color: white;
 }
 
 .centered-button:hover {
-    background-color: #f2c438;
+background-color: #f2c438;
 }
