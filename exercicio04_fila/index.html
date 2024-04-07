@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Fila</title>
+</head>
+
+<body>
+<script src="./scripts.js"></script>
+
+<div class="container">
+<nav>
+  <div class="logo">PWM<b>.</b></div>
+  <ul class="navItems">
+    <li><a href="../index.html">Inicio</a></li>
+  </ul>
+
+  <div class="links">
+    <a href="https://www.linkedin.com/in/eduardasantanab/"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/eduardasantanab"><i class="fab fa-github"></i></a>
+  </div>
+</nav>
+</div>
+
+<article>
+  <div class="palavras"><h3>Escolha uma opção</h3></div>
+
+  <form action="" class="teste">
+    <br>
+    <label for="fila" class="palavras">Fila</label>
+    <input type="radio" name="vetor" id="fila" value="fila">
+
+    <label for="favcolor" class="palavras">Cor:</label>
+    <input type="color" id="favcolor" name="favcolor" value="white">
+  </form>
+
+    <div class="button-container">
+      <label for="number" class="palavras">Número:</label>
+      <input type="text" name="number" id="number" placeholder="Digite um número">
+      <button class="centered-button" type="submit" name="send" onclick="adicionarInput()">Adicionar</button>
+      <button class="centered-button-2" type="submit" name="send" onclick="removerInput()">Remover</button>
+    </div>
+
+  <div id="exibe-fila"></div>
+</article>
+</body>
+</html>
