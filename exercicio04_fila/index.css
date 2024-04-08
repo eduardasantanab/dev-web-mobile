@@ -9,7 +9,7 @@ font-family: Verdana, sans-serif;
 
 body{
 overflow: auto;
-background-image: url("/arquivos/ceu.jpg");
+background-image: url("/arquivos/teste.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -146,8 +146,8 @@ opacity: 0.3
 }
 
 #teste{
-background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+background: rgba( 255, 255, 255, 255);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 165, 0.57 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
