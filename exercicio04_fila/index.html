@@ -25,23 +25,27 @@
 </div>
 
 <article>
+  <div class="box" id="teste"></div>
   <div class="palavras"><h3>Escolha uma opção</h3></div>
+  <br>
 
-  <form action="" class="teste">
+  <form action="" class="opcoes">
     <br>
     <label for="fila" class="palavras">Fila</label>
     <input type="radio" name="vetor" id="fila" value="fila">
 
     <label for="favcolor" class="palavras">Cor:</label>
     <input type="color" id="favcolor" name="favcolor" value="white">
-  </form>
+    <br>
 
     <div class="button-container">
+      <br>
       <label for="number" class="palavras">Número:</label>
       <input type="text" name="number" id="number" placeholder="Digite um número">
       <button class="centered-button" type="submit" name="send" onclick="adicionarInput()">Adicionar</button>
       <button class="centered-button-2" type="submit" name="send" onclick="removerInput()">Remover</button>
     </div>
+  </form>
 
   <div id="exibe-fila"></div>
 </article>
