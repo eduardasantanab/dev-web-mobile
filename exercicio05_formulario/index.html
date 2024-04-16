@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+<script src="./scripts.js"></script>
+
+<div class="container">
+<div class="box-contato" id="contato"></div>
+
+<section>
+    <form action="" class="formulario">
+        <h3 class="palavras" id="titulo">Entre em contato</h3>
+        <br>
+
+        <label for="name" class="palavras" id="nome">Nome:</label>
+        <input type="text" class="box-c" name="nome" id="name" placeholder="Seu nome">
+        <br>
+
+        <div>
+            <label for="email" class="palavras">Email:</label>
+            <input type="email" class="box-c" name="email" id="email" placeholder="exemplo@exemplo.com">
+        </div>
+        <br>
+
+        <div>
+            <label for="conteudo"></label>
+            <textarea name="texto" class="box-c" style="resize: none" id="conteudo" cols="30" rows="10" placeholder="Mande uma mensagem"></textarea>
+        </div>
+
+        <br>
+        <div class="button-container">
+            <input type="submit" name="send" value="Enviar" class="centered-button" />
+        </div>
+
+        <p><a href="/lista.html">listar mensagens</a></p>
+        <ul id="messages"></ul>
+    </form>
+</section>
+</div>
+</body>
+</html>
